@@ -21,8 +21,16 @@
         "required": ["oid", "size"],
         "additionalProperties": false
       }
+    },
+    "ref": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      }
     }
   },
   "required": ["objects", "operation"],
-  "additionalProperties": false
+  "additionalProperties": false 
 }
